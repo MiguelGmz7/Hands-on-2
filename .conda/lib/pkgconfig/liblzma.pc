@@ -1,0 +1,19 @@
+#
+# Author: Lasse Collin
+#
+# This file has been put into the public domain.
+# You can do whatever you want with this file.
+#
+
+prefix=/mnt/Data/User/Courses/2024B/Clasificación inteligente de datos/Homework/Hands-on 2/.conda
+exec_prefix=/mnt/Data/User/Courses/2024B/Clasificación inteligente de datos/Homework/Hands-on 2/.conda
+libdir=/mnt/Data/User/Courses/2024B/Clasificación inteligente de datos/Homework/Hands-on 2/.conda/lib
+includedir=/mnt/Data/User/Courses/2024B/Clasificación inteligente de datos/Homework/Hands-on 2/.conda/include
+
+Name: liblzma
+Description: General purpose data compression library
+URL: https://tukaani.org/xz/
+Version: 5.2.6
+Cflags: -I${includedir}
+Libs: -L${libdir} -llzma
+Libs.private: -pthread -lrt  -lpthread

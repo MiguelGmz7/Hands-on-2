@@ -1,0 +1,12 @@
+prefix=/mnt/Data/User/Courses/2024B/Clasificación inteligente de datos/Homework/Hands-on 2/.conda
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: libnsl
+Description: Library containing NIS functions using TI-RPC (IPv6 enabled)
+Requires: libtirpc >= 1.0.1
+Version: 2.0.1
+Libs: -L${exec_prefix}/lib -lnsl
+Cflags: -I${prefix}/include
+
